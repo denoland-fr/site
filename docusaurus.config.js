@@ -6,18 +6,18 @@
  */
 
 module.exports = {
-  title: 'Deno Land Korea',
+  title: 'Deno Land France',
   tagline: 'deno denoland',
-  url: 'https://denoland.kr',
+  url: 'https://denoland.fr',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'denoland-kr', // Usually your GitHub org/user name.
+  organizationName: 'denoland-fr', // Usually your GitHub org/user name.
   projectName: 'denoland', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'denoland.kr',
+      title: 'denoland.fr',
       logo: {
-        alt: 'denoland.kr',
+        alt: 'denoland.fr',
         src: 'img/logo.png'
       },
       links: [
@@ -47,7 +47,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus'
+              href: 'https://discord.gg/ba5sE8'
             }
           ]
         },

@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c161329c-0263-49f5-a813-1791b09632b1/deploy-status)](https://app.netlify.com/sites/denoland-fr/deploys)
+
 # Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+Ce site est lancé avec l'aide de [Docusaurus 2](https://v2.docusaurus.io/) et Netlify.
 
 ### Installation
 
@@ -8,13 +10,13 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 $ yarn
 ```
 
-### Local Development
+### Local Dev
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+Commande utilisé pour lancer en local le site de Denoland FR.
 
 ### Build
 
@@ -22,12 +24,4 @@ This command starts a local development server and open up a browser window. Mos
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Commande utilisé principalement pour le déploiement.

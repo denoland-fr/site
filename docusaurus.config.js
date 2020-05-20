@@ -7,7 +7,7 @@
 
 module.exports = {
   title: 'Deno Land France',
-  tagline: 'deno denoland',
+  tagline: 'Communauté FR autour de Deno',
   url: 'https://denoland.fr',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -24,7 +24,7 @@ module.exports = {
         { to: 'docs/doc1', label: 'Docs', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/denoland-fr/site',
           label: 'GitHub',
           position: 'right'
         }
@@ -66,7 +66,7 @@ module.exports = {
         src: 'https://docusaurus.io/img/oss_logo.png',
         href: 'https://opensource.facebook.com/'
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Denoland FR. Built with love.`
     }
   },
   presets: [

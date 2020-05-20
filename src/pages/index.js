@@ -19,8 +19,9 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Le fichier package.json est central au fonctionnement de n’importe quelle application Node. 
+        Un require a un accès direct au package.json le rendant d’autant plus indispensable. 
+        Et en incluant NPM dans l’équation... 
       </>
     ),
   },
@@ -29,8 +30,10 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Et ce fonctionnement via package.json qui va télécharger des modules via le require amène un problème encore plus important. 
+        L’extrême complexité de résolution des modules quand tu tapes npm install. 
+        C’est un espèce d’énorme algorithme qui va faire 1 milliard de calls pour te télécharger autant de modules 
+        et de dépendances de modules que tu vas stocker dans un dossier sans fin.
       </>
     ),
   },
@@ -39,8 +42,9 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Finies les dépendances, finies les résolutions et place aux ES modules qui sont désormais le seul système de module accepté. 
+        Plus étonnant les modules peuvent être appelés via url HTTP ! 
+        Ils sont téléchargés et mis en cache indéfiniment. 
       </>
     ),
   },

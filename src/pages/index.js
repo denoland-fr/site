@@ -15,7 +15,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Fin de package.json</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -25,7 +25,7 @@ const features = [
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Fin de node_modules</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -35,7 +35,7 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Performances vérifiées</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -79,7 +79,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              Get Started
+              C'est parti !
             </Link>
           </div>
         </div>

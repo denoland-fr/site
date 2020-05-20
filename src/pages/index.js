@@ -30,9 +30,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Et ce fonctionnement via package.json qui va télécharger des modules via le require amène un problème encore plus important. 
-        L’extrême complexité de résolution des modules quand tu tapes npm install. 
-        C’est un espèce d’énorme algorithme qui va faire 1 milliard de calls pour te télécharger autant de modules 
+        L’extrême complexité de résolution des modules quand le npm install est lancé qui va faire 
+        1 milliard de calls pour te télécharger autant de modules 
         et de dépendances de modules que tu vas stocker dans un dossier sans fin.
       </>
     ),
@@ -42,7 +41,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Finies les dépendances, finies les résolutions et place aux ES modules qui sont désormais le seul système de module accepté. 
+        Place aux ES modules qui sont désormais le seul système de module accepté. 
         Plus étonnant les modules peuvent être appelés via url HTTP ! 
         Ils sont téléchargés et mis en cache indéfiniment. 
       </>

@@ -7,7 +7,7 @@
 
 module.exports = {
   docs: {
-    Deno: ['doc1'],
-    Features: ['mdx'],
+    Deno: ['doc1', 'officialdoc'],
+    // Features: ['mdx'],
   },
 };
